@@ -1,0 +1,10 @@
+.a {
+    border-width: thin;
+    color: rgb(113, 13, 228);
+    border-style: solid;
+    display: inline-block;
+    }
+
+.b{
+    text-align: center;
+}

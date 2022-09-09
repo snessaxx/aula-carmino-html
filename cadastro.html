@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="cadastro.css">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+	<div class="barra">
+		<img class="logo" src="./cc/download.jfif"weight="20", height="45">
+	</div>
+	<div class="container">
+		<div class="container-login">
+			<div class="wrap-login">
+				<form class="login-form">
+					<span class="login-form-title">
+						Faça seu cadastro
+					</span>
+
+					<div class="wrap-input margin-top-35 margin-bottom-35">
+						<input class="input-form" type="text" name="nome" autocomplete="off" id="nome">
+						<span class="focus-input-form" data-placeholder="Nome completo"></span>
+					</div>
+                    
+                    <div class="wrap-input margin-top-35 margin-bottom-35">
+						<input class="input-form" type="text" name="email" autocomplete="off" id="email">
+						<span class="focus-input-form" data-placeholder="E-mail"></span>
+					</div>
+                    
+					<div class="wrap-input margin-top-35 margin-bottom-35">
+						<input class="input-form" type="text" name="org" autocomplete="off" id="org">
+						<span class="focus-input-form" data-placeholder="Empresa"></span>
+					</div>
+            
+				
+                    
+					<div class="wrap-input margin-bottom-35">
+						<input class="input-form" type="password" name="password" id="senha">
+						<span class="focus-input-form" data-placeholder="Senha"></span>
+					</div>
+                    
+
+					<div class="container-login-form-btn">
+						<button type="submit" class="login-form-btn">
+							cadastro
+						</button>
+					</div>
+
+					<ul class="login-utils">
+
+						<li>
+							<span class="text1">
+								Já possui uma conta?
+							</span>
+
+							<a id="signin" href="../login/login.html" class="text2">
+								login
+							</a>
+						</li>
+					</ul>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script>
+		function logar(){
+
+		var login = document.getElementById('login').value;
+		var senha = documento.getElementById('senha').value;
+
+		if (email == "admin" && senha == "admin") {
+			alert('sucesso');
+		}
+	}
+
+	</script>
+
+</body>
+</html>
